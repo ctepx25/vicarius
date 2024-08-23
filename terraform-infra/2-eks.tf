@@ -2,6 +2,7 @@ variable "eks_name" {
   description = "EKS name"
   type = string
   nullable = false
+  default = "vicarius"
 }
 
 module "eks" {
