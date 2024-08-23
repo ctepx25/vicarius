@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Pods in kube-system </title>
+</head>
+<body>
+
+<ol> 
+{%for i in range(0, len)%} 
+    <li>{{data[i]["metadata"]["name"]}}</li> 
+{%endfor%} 
+  
+</ol> 
+</body>
+</html>
