@@ -14,6 +14,7 @@ spec:
       labels:
         app: {{ .Release.Name }}-app
     spec:
+      serviceAccountName: viewer
       containers:
       - image: {{ .Values.image }}
         name: app
