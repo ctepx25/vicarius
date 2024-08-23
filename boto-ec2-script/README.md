@@ -24,7 +24,5 @@ Alternatively you can build Docker image and run the script from within the cont
 ```sh
 docker build -t boto .
 docker run --name boto -e AWS_ACCESS_KEY_ID=*** -e AWS_SECRET_ACCESS_KEY=*** -di boto /bin/sh
-docker exec -ti boto /bin/sh
-
-/bin/boto-script.py
+docker exec -ti boto /bin/boto-script.py
 ```
