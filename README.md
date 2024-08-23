@@ -19,7 +19,7 @@ terraform apply
 aws eks --region us-east-1 update-kubeconfig --name <cluster name>
 ```
 #### 4. Deploy flask-app.
-```
+```sh
 cd terraform-helm
 terraform init
 terraform apply
