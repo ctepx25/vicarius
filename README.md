@@ -1,6 +1,5 @@
-## Simple flask app returns list of pods in kube-system namespace
+## Simple flask app displays all running pods in the "kube-system" namespace.
 
-#### Helm chart can be found in `./k8s` folder.
 
 ###  Infrastructure provision and code deploy
 ---
