@@ -16,7 +16,7 @@ terraform apply
 ```
 #### 3. Update kubeconfig:
 ```sh
-aws eks --region us-east-1 update-kubeconfig --name <cluster name>
+aws eks --region us-east-1 update-kubeconfig --name vicarius
 ```
 #### 4. Deploy flask-app.
 ```sh
