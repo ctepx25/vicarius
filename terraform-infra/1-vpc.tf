@@ -2,6 +2,7 @@ variable "vpc_name" {
   description = "VPC name"
   type = string
   nullable = false
+  default = "vicarius"
 }
 
 module "vpc" {
