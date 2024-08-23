@@ -1,6 +1,7 @@
 variable "repo_name" {
   description = "ECR repo name"
-  type = string 
+  type = string
+  default = "vicarius"
 }
 
 # tell terraform which provider plugins are needed
