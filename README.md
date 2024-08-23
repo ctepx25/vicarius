@@ -1,8 +1,8 @@
-Simple flask app returns list of pods in kube-system namespace
+## Simple flask app returns list of pods in kube-system namespace
 
-Helm chart can be found in `./k8s` folder.
+#### Helm chart can be found in `./k8s` folder.
 
-##  Infrastructure provision and code deploy
+###  Infrastructure provision and code deploy
 ---
 #### 1. Create aws infrastructure (vpc & eks cluster):
 ```sh
