@@ -1,7 +1,7 @@
 ## Simple flask app displays all running pods in the "kube-system" namespace.
+---
 
-
-###  Infrastructure provision and code deploy
+####  Infrastructure provision and code deploy
 ---
 #### 1. Create aws infrastructure (vpc & eks cluster):
 ```sh
