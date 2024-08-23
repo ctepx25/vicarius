@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 import boto3, argparse
 from botocore.config import Config
 
